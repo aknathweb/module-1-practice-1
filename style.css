@@ -65,8 +65,9 @@ img {
 #counter-section {
     height: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+    text-align: center;
     background-color: white;
     box-shadow: 2px 2px 10px black;
     padding: 3%;
@@ -75,6 +76,10 @@ img {
 
 .counter-section-split {
     width: 20%;
+}
+
+.counter-section-split h1 {
+    font-weight: bolder;
 }
 
 #footer-part {
